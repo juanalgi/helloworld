@@ -8,5 +8,7 @@ public class Controlador {
 		InfectedHuman zombie = zombieCreator.createHuman();
 	
 		zombie.scratch();
+		
+		System.out.println(zombie.getHealth());
 	}
 }
