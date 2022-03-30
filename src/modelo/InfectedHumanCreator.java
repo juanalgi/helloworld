@@ -1,7 +1,8 @@
+package modelo;
 
 public class InfectedHumanCreator extends HumanCreator {
 	
-	InfectedHuman createHuman() {
+	public InfectedHuman createHuman() {
 		
 		return new InfectedHuman();
 	}

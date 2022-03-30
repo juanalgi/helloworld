@@ -1,3 +1,4 @@
+package modelo;
 
 public abstract class Human {
 	
@@ -8,7 +9,7 @@ public abstract class Human {
 		health = 1.0;
 	}
 	
-	double getHealth() {
+	public double getHealth() {
 		
 		return health;
 	}

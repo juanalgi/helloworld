@@ -1,3 +1,4 @@
+package modelo;
 
 public class InfectedHuman extends Human {
 	
